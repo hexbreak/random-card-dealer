@@ -1,1 +1,16 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: blueviolet;
+}
+
+.content {
+}
+
+.card {
+  background: white;
+  display: inline-block;
+  margin: auto;
+  height: 400px;
+  width: 250px;
+  padding: 30px;
+  border-radius: 12px;
+}
