@@ -2,18 +2,9 @@
 import "bootstrap";
 import "./style.css";
 
-// import "./assets/img/4geeks.ico";
-
-/*
-window.onload = function() {
-  console.log("Hello Rigo from the console!");
-};
-*/
-
-/* function cardDealer() {
-  let tLayer = ["&#9674", "&#9824", "&#9827", "&#9829", "&#9830"];
-  let bLayer = ["&#9674", "&#9824", "&#9827", "&#9829", "&#9830"];
-  let rNumber = [
+window.onload = () => {
+  let theLayer = ["&#9674", "&#9824", "&#9827", "&#9829", "&#9830"];
+  let theNumber = [
     "A",
     "2",
     "3",
@@ -26,12 +17,28 @@ window.onload = function() {
     "10",
     "J",
     "Q",
-   "K"
+    "K"
   ];
-*/
-document.querySelector(".top-layer").innerHTML = "&#9824";
 
-document.querySelector(".numbers").innerHTML = "5";
+  function randomSuits() {
+    return theLayer[Math.floor(Math.random() * theLayer.length)];
+  }
 
-document.querySelector(".bottom-layer").innerHTML = "&#9824";
-/* } */
+  function randomNumber() {
+    return theNumber[Math.floor(Math.random() * theNumber.length)];
+  }
+
+  var theSuits = randomSuits();
+
+  if (theSuits == "&#9829;" || theSuits == "&#9830;") {
+    document.querySelector(".top-layer").style.color = "red";
+    document.querySelector(".bottom-layer").style.color = "red";
+    document.querySelector(".number").style.color = "red";
+  }
+
+  document.querySelector(".top-layer").innerHTML = theSuits;
+
+  document.querySelector(".numbers").innerHTML = randomNumber();
+
+  document.querySelector(".bottom-layer").innerHTML = theSuits;
+};
