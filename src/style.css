@@ -9,21 +9,35 @@ body {
   background: white;
   display: flex;
   margin: auto;
+  margin-top: 172px;
   height: 400px;
   width: 250px;
   padding: 30px;
   border: 1px solid black;
-  box-shadow: 50px 50px 50px rgb(88, 87, 87);
+  box-shadow: 7px 7px 7px rgb(51, 51, 51);
   border-radius: 5px;
   position: relative;
   justify-content: center;
 }
 
 .top-layer {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  font-size: 100px;
 }
 
 .bottom-layer {
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+  font-size: 100px;
+  transform: rotate(180deg);
 }
 
 .numbers {
+  position: absolute;
+  margin-top: 130px;
+  font-size: 160px;
+  font-weight: bold;
 }
