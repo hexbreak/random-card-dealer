@@ -1,43 +1,29 @@
 body {
   background: blueviolet;
   font-size: 60px;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
   background: white;
-  display: inline-block;
+  display: flex;
   margin: auto;
   height: 400px;
   width: 250px;
   padding: 30px;
   border: 1px solid black;
+  box-shadow: 50px 50px 50px rgb(88, 87, 87);
   border-radius: 5px;
   position: relative;
   justify-content: center;
 }
 
 .top-layer {
-  height: 25%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
 }
 
 .bottom-layer {
-  height: 25%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
 }
 
 .numbers {
-  height: 50%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
