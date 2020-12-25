@@ -32,8 +32,8 @@ window.onload = () => {
 
   if (theSuits == "&#9829;" || theSuits == "&#9830;") {
     document.querySelector(".top-layer").style.color = "red";
-    document.querySelector(".bottom-layer").style.color = "red";
     document.querySelector(".number").style.color = "red";
+    document.querySelector(".bottom-layer").style.color = "red";
   }
 
   document.querySelector(".top-layer").innerHTML = theSuits;
