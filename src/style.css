@@ -13,9 +13,18 @@ body {
   border: 1px solid black;
   border-radius: 5px;
   position: relative;
+  justify-content: center;
 }
 
-.top-layer,
+.top-layer {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
 .bottom-layer {
   height: 25%;
   width: 100%;
