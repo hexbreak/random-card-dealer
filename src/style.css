@@ -22,22 +22,21 @@ body {
 
 .top-layer {
   position: absolute;
-  top: 5px;
-  left: 20px;
-  font-size: 100px;
+  top: -12px;
+  left: 27px;
+  font-size: 112px;
 }
 
 .bottom-layer {
   position: absolute;
-  bottom: 5px;
-  right: 20px;
-  font-size: 100px;
+  bottom: -12px;
+  right: 27px;
+  font-size: 112px;
   transform: rotate(180deg);
 }
 
 .numbers {
   position: absolute;
-  margin-top: 130px;
+  margin-top: 115px;
   font-size: 160px;
-  font-weight: bold;
 }
