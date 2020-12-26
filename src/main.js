@@ -1,4 +1,3 @@
-/* eslint-disable */
 import "bootstrap";
 import "./style.css";
 
@@ -24,11 +23,11 @@ window.onload = () => {
     return theLayer[Math.floor(Math.random() * theLayer.length)];
   }
 
+  var theSuits = randomSuits();
+
   function randomNumber() {
     return theNumber[Math.floor(Math.random() * theNumber.length)];
   }
-
-  var theSuits = randomSuits();
 
   if (theSuits == "&#9829;" || theSuits == "&#9830;") {
     document.querySelector(".top-layer").style.color = "red";
