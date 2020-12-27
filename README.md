@@ -1,4 +1,6 @@
-# Hello World with Vanilla JS
+## Poker Card - Random Dealer using Bootstrap, CSS & Javascript.
+
+## Hello World with Vanilla JS
 
 Start coding in 30 seconds by opening this template in gitpod:
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/vanillajs-hello.git)
